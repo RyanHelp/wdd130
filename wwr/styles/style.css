@@ -83,6 +83,9 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
 }
+#hero.img{
+    margin: 0 auto;
+}
 #hero-msg h1{
     text-align: center;
 } 

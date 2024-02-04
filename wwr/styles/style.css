@@ -2,8 +2,6 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 #background {
     height: 725px;
@@ -15,13 +13,88 @@ body {
 header {
     background-color: rgba(20,30,13, .7);
 }
+nav a:hover{
+    background-color: black;
+}
+.book{
+background-color: antiquewhite;
+} 
+.join{
+background-color: #084f1a;
+}
+.book:hover{
+background-color: antiquewhite;
+}
+.join:hover{
+background-color: #084f1a;
+}
+#background{
+background-color: beige;
+}
+.msg{
+background-color: #084f1a;
+}
 footer {
     background-color: #084f1a;
 }
-
+.home-title{
+    background-color: black;
+}
+h4{
+    background-color: beige;
+}
+.book{
+    background-color: #084f1a;
+} 
+.join{
+    background-color: rgb(12, 63, 12);
+}
+.book:hover{
+    background-color: darkslategrey;
+} 
+.join:hover{
+    background-color: black;
+}
+.msg h2{
+    background-color: #084f1a;
+}
+.msg p{
+    background-color: beige;
+}
+footer{
+    background-color: beige;
+}
+footer a{
+background-color: #084f1a;
+}
+    
+footer a:hover{
+    background-color: #084f1a;
+    text-decoration: underline;
+}
 .icon {
     width: 80px;
 }
 .logo {
     width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+#hero-msg h1{
+    text-align: center;
+} 
+#hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+footer p {
+    font-size: 1.2em;
 }

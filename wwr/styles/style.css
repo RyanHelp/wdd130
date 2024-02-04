@@ -16,52 +16,7 @@ header {
 footer {
     background-color: #084f1a;
 }
-footer h3 {
-    color: #114b5f;
-}
-footer a {
-    color: #114b5f;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #0e573a;
-}
-footer p {
-    font-size: 1.2em;
-}
-footer p a:hover {
-    text-decoration: underline;
-}
-.book {
-    background-color: #95dce5;
-    color: #114b5f;
-    text-decoration: none;
-}
-.book:hover {
-    background-color: #95dce5;
-    color: #014534;
-}
-.join {
-    background-color: #95dce5;
-    color: #114b5f;
-    text-decoration: none;
-}
-.join:hover {
-    background-color: #95dce5;
-    color: #094e44;
-}
-.msg {
-    background-color: #094e3b;
-}
-.msg h2 {
-    color: #114b5f;
-}
-.msg p {
-    color: #114b5f;
-}
-.home-title {
-    color: #114b5f;
-}
+
 .icon {
     width: 80px;
 }

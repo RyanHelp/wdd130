@@ -1,15 +1,3 @@
-@import-font-family: Georgia, serif;
-
-
-
-
-
-
-
-
-
-
-
 
 #content {
     max-width: 1600px;
@@ -32,6 +20,8 @@ nav a:hover{
 background-color: antiquewhite;
 } 
 .join{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
 background-color: #084f1a;
 }
 .book:hover{

@@ -9,6 +9,8 @@
 }
 body {
     background-color: #fcfbfb;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: rgba(20,30,13, .7);
@@ -17,11 +19,19 @@ nav a:hover{
     background-color: black;
 }
 .book{
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
 background-color: antiquewhite;
 } 
 .join{
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
+    font-size: 18px;
 background-color: #084f1a;
 }
 .book:hover{
@@ -34,21 +44,30 @@ background-color: #084f1a;
 background-color: beige;
 }
 .msg{
+    padding: 35px;
+    line-height: 1.5em;
 background-color: #084f1a;
 }
 footer {
     background-color: #084f1a;
 }
 .home-title{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
     background-color: black;
 }
 h4{
     background-color: beige;
 }
 .book{
+    border-radius: 5px;
+    padding: 15px 30px;
     background-color: #084f1a;
 } 
 .join{
+    border-radius: 5px;
+    padding: 15px 30px;
     background-color: rgb(12, 63, 12);
 }
 .book:hover{
@@ -58,12 +77,21 @@ h4{
     background-color: black;
 }
 .msg h2{
+    margin: 0;
     background-color: #084f1a;
 }
 .msg p{
+    padding-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .8em;
     background-color: beige;
 }
+footer .social img {
+    padding-top: 15px;
+}
 footer{
+    margin-top: 200px;
+    padding: 25px 50px;
     background-color: beige;
 }
 footer a{
@@ -75,12 +103,14 @@ footer a:hover{
     text-decoration: underline;
 }
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 .logo {
     width: 80px;
 }
 nav a {
+    padding: 35px;
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -102,4 +132,22 @@ main section{
 }
 footer p {
     font-size: 1.2em;
+}
+#logo_Link{
+    padding-top: 5px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
